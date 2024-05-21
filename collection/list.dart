@@ -48,6 +48,8 @@ void main() {
 
   print(growable.hashCode);
 
+    print("--------------------------------------------  ");
+
   print(growable.indexed);
 
   print(growable.toString().runtimeType);
