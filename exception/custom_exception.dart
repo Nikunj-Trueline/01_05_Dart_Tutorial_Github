@@ -4,7 +4,7 @@ void checkAge(int age)
    {
   throw FormatException();
    }else{
-    print("Age is $age")
+    print("Age is $age");
    }
 }
 
@@ -13,6 +13,7 @@ void main()
      try{
       checkAge(-10);
      }catch(e){
+      
          print("Age is not lessthan Zero");
      }
    
