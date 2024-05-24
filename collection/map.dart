@@ -1,14 +1,11 @@
 void main() {
-  List userdata = {
-    "user1": {"name": "nikunj", "email": "nikunj@gmail.com", "CGPA": 9.69},
-    "user2": {"name": "sahdev", "email": "sahdev@gmail.com", "CGPA": 63.63},
-    "user3": {"name": "vishal", "email": "vishal@gmail.com", "CGPA": 5.63}
-  };
-
-  
-
-  print(userdata["user2"]["CGPA"]);
-  print(userdata["user3"]["email"]);
+  List userdata = [
+    {
+      "user1": {"name": "nikunj", "email": "nikunj@gmail.com", "CGPA": 9.69},
+      "user2": {"name": "sahdev", "email": "sahdev@gmail.com", "CGPA": 63.63},
+      "user3": {"name": "vishal", "email": "vishal@gmail.com", "CGPA": 5.63}
+    }
+  ];
 
   // print(userdata["date2"]);
 

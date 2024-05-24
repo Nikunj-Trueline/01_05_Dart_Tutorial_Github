@@ -1,28 +1,22 @@
-class Car
-{
-  
-     // Data member  // varaibles  // state 
-    String carName;
-    int carPrice;
-    String modelName;
+class Car {
+  // Data member  // varaibles  // state
+  String? carName;
+  int? carPrice;
+  String? modelName;
 
-    // Data method   // functions   // behaviour 
+  // Data method   // functions   // behaviour
 
-      void printData()
-      {
-        print("CarName is $carName");
-        print("CarPrice is $carPrice");
-        print("CarModel name is $CarModel");
-      }
-
+  void printData() {
+    print("CarName is $carName");
+    print("CarPrice is $carPrice");
+    print("CarModel name is $modelName");
+  }
 }
 
-void main()
-{
-     Car obj = Car();
+void main() {
+  Car obj = Car();
 
-     obj.carName = "bugati veron";
+  obj.carName = "bugati veron";
 
-   print(obj.carName);
+  print(obj.carName);
 }
-
